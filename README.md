@@ -49,7 +49,7 @@ lex filename.l
 ```
 
 ```
-cc lex.yy.c y.tab.c -ll
+cc lex.yy.c -ll
 ```
 ```
 ./a.out
