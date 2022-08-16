@@ -42,6 +42,21 @@ inside the folder you can see all the programs folders
 Open which ever program folder you want, 
 right click and open the terminal and execute these commands in order
 
+##### Steps to execute lex programs
+
+```
+lex filename.l
+```
+
+```
+cc lex.yy.c y.tab.c -ll
+```
+```
+./a.out
+```
+
+##### Steps to execute yacc programs
+
 ```
 lex filename.l
 ```
